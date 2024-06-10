@@ -1,0 +1,21 @@
+.about-body{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-body h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #105b8d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-body p{
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 30px;
+}
