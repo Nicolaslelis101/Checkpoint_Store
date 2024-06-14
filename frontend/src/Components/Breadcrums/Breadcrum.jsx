@@ -1,15 +1,18 @@
-import React from 'react'
-import './Breadcrum.css'
-import arrow_icon from '../Assets/breadcrum_arrow.png'
+// src/Components/Breadcrums/Breadcrum.js
+import React from 'react';
+import './Breadcrum.css';
+import arrow_icon from '../Assets/breadcrum_arrow.png';
 
-export const Breadcrum = (props) => {
-    const {product} = props;
-    console.log(product)
-  return (
-    <div className='breadcrum'>
-        HOME <img src={arrow_icon} alt="" /> SHOP <img src={arrow_icon} alt="" /> {product.tag} <img src={arrow_icon} alt="" /> {product.name} <img src={arrow_icon} alt="" />
-    </div>
-  )
-}
+export const Breadcrum = ({ product }) => {
+    if (!product) {
+        return null; // Ou você pode retornar um spinner de carregamento ou um placeholder
+    }
 
-export default Breadcrum
+    return (
+        <div className='breadcrum'>
+            HOME <img src={arrow_icon} alt="arrow" /> SHOP <img src={arrow_icon} alt="arrow" /> {product.tag} <img src={arrow_icon} alt="arrow" /> {product.name} <img src={arrow_icon} alt="arrow" />
+        </div>
+    );
+};
+
+export default Breadcrum;

@@ -45,7 +45,7 @@ let all_product = [
         tag:"OFERTA DO DIA",
     },
     {
-        id: 5,
+        id: 12,
         name: "Pc Completo",
         image: p12_img,
         new_price: 50.0,
@@ -53,7 +53,7 @@ let all_product = [
         tag:"OFERTA DO DIA",
       },
       {
-        id: 6,
+        id: 35,
         name: "Kit Pc, Monitor e Periféricos",
         image: p35_img,
         new_price: 85.0,
@@ -61,7 +61,7 @@ let all_product = [
         tag:"OFERTA DO DIA",
       },
       {
-        id: 7,
+        id: 14,
         name: "Gabinete Gamer",
         image: p14_img,
         new_price: 60.0,
@@ -77,7 +77,7 @@ let all_product = [
         tag:"OFERTA DO DIA",
       },
       {
-        id: 9,
+        id: 15,
         name: "Kit Nintendo Switch e Periféricos",
         image: p15_img,
         new_price: 50.0,
@@ -85,7 +85,7 @@ let all_product = [
         tag:"GAMES",
       },
       {
-        id: 10,
+        id: 17,
         name: "Kit para jogos de corrida",
         image: p17_img,
         new_price: 60.0,
@@ -93,7 +93,7 @@ let all_product = [
         tag:"OFERTA DO DIA",
       },
       {
-        id: 11,
+        id: 28,
         name: "Mesa Gamer",
         image: p28_img,
         new_price: 100.0,
